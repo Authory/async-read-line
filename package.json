@@ -1,5 +1,5 @@
 {
-  "name": "async-read-line",
+  "name": "async-line-reader",
   "version": "1.0.0",
   "description": "Read line-by-line from stream, using async.",
   "scripts": {

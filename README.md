@@ -5,9 +5,9 @@ This library provides a convenient way to read line-wise from streams.
 ### Installation
 
 ```bash
-yarn add synchronized-ts
+yarn add async-line-reader
 # or
-npm i synchronized-ts
+npm i async-line-reader
 ```
 
 ### Usage and Examples

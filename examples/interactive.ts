@@ -1,4 +1,4 @@
-import { AsyncLineReader } from '../lib'
+import { AsyncLineReader } from '../lib' // 'async-line-reader'
 
 async function main() {
   const reader = new AsyncLineReader(process.stdin)

@@ -17,10 +17,16 @@ Read line-wise from a stream:
 ```ts
 const reader = new AsyncLineReader(stream)
 
-const line = await reader.readLine()
+let line: string | null
+
+// Read each line until the stream ends.
+for((line = await reader.readLine() !== null) {
+  // ... do something with line.
+}
+
 ```
 
-Custom separator or encoding.
+Custom separator or encoding:
 
 ```ts
 const reader = new AsyncLineReader(stream, ';', 'ascii')
